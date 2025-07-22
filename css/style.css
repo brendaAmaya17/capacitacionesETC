@@ -22,6 +22,7 @@ body{
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
+  
 }
 
 .navbar-left{
@@ -31,8 +32,9 @@ body{
 }
 
 .navbar-left img {
-    height: 80px;
+    height: 70px;
     width: 150px;
+
 }
 
 .empresa {
@@ -66,6 +68,20 @@ body{
  .navbar-right button:hover {
     color:rgb(66, 71, 75);
  }
+
+ .icono-boton {
+  background: none;
+  border: none;
+  font-size: 20px;
+  color: white;
+  cursor: pointer;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.icono-boton:hover {
+  color: rgb(66, 71, 75); 
+}
 
  /*linea divisora*/
  .divider {
@@ -141,9 +157,15 @@ body{
     padding: 20px;
     font-size: 14px;
 }
+.footer-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;    
+}
 .footer-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap:50px;
     flex-wrap: wrap;
 }
 .footer-info {
@@ -154,19 +176,23 @@ body{
 
 /*iconos*/
 .icono-imagen {
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
   margin: 0 5px;
   vertical-align: middle;
  
 }
+.footer-contact h4{
+  text-align: center;
 
+}
 .footer-contact ul {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 10px;
   display: flex;
-  gap: 10px;
+  gap: 20px;
+  
 }
 
 .footer-contact a {
